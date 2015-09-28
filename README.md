@@ -18,7 +18,17 @@ This number should be enough to represent the maximum file-size possible on a gi
 
 In this application, `sizeof(std::streampos)` is used for this purpose.
 The executable *`sfx`* is the extraction executable, and the encryption message is appended to this executable.  
-Another executable *`locker`* is used for reading the plaintext, encrypting it, and appending the encrypted message to *`sfx`*.
+Another executable *`locker`* is used for reading the plaintext, encrypting it, and appending the encrypted message to *`sfx`*.  
+
+![Image 1](https://raw.githubusercontent.com/Anmol-Singh-Jaggi/File-Locker/master/screenshots/1_SFX%20without%20anything%20appended.png)  
+*The SFX binary without anything appended*  
+
+![Image 2](https://raw.githubusercontent.com/Anmol-Singh-Jaggi/File-Locker/master/screenshots/2_Message%2835%20bytes%29%20appended%20to%20SFX.png)  
+*A message of length 35 bytes appended to the SFX binary*  
+
+![Image 3](https://raw.githubusercontent.com/Anmol-Singh-Jaggi/File-Locker/master/screenshots/3_Size%2816%20bytes%29%20appended%20to%20message.png)  
+*The size of the extraction executable appended to message*  
+*The size of `std::streampos` on this platform is 16 bytes*  
 
 **Requirements**
  - GNU C++ compiler
