@@ -8,7 +8,7 @@
 void CheckFileStream( const std::ios& fileStream, const std::string& filePath );
 
 // Returns the size of a file in bytes
-std::streampos GetFileSize( const std::string& fileName );
+std::streampos GetFileSize( const std::string& filePath );
 
 // Converts a string to int
 int ToInt( const std::string& str );

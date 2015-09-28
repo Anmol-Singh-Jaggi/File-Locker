@@ -37,7 +37,7 @@ void FileToVector( ifstream& file, vector<T>& vec, const streampos& start = 0, c
 	file.read( reinterpret_cast<char*>( &vec[0] ), vec.size() * sizeof( T ) );
 }
 
-// Converts an object into a string
+// Converts an object to a string
 template<typename T>
 string ToString( const T& obj )
 {

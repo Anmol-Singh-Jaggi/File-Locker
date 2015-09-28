@@ -15,10 +15,10 @@ void CheckFileStream( const ios& fileStream, const string& filePath )
 	}
 }
 
-streampos GetFileSize( const string& fileName )
+streampos GetFileSize( const string& filePath )
 {
-	ifstream fin( fileName, ios::in | ios::ate | ios::binary );
-	CheckFileStream( fin, fileName );
+	ifstream fin( filePath, ios::in | ios::ate | ios::binary );
+	CheckFileStream( fin, filePath );
 	return fin.tellg();
 }
 
