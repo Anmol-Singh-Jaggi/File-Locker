@@ -1,0 +1,5 @@
+mkdir -p bin
+mkdir -p build
+make bin/sfx
+make bin/locker
+echo Build finished!!

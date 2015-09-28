@@ -1,0 +1,3 @@
+bin/locker data/plaintext 50 data/locked
+data/locked 50 data/unlocked
+cat data/unlocked
