@@ -51,7 +51,8 @@ It needs the following command-line arguments to execute, given in the specified
 It needs the following command-line arguments to execute, given in the specified order -:  
     - *`key`* - The key to be used for decryption ( in this case, same as the one provided during encryption )
     - *`output_path`* - The path to the file where the decrypted message will be written
- - A script containing a sample of the execution steps has been provided in the 'run' script. Type `./run` to execute it.
+ - A script containing a sample of the execution steps has been provided in the 'run' script.  
+Type `./run` to execute it.
 
 **TODO**
  - Simplify the makefile.
